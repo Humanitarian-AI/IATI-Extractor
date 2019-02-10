@@ -25,3 +25,7 @@ We'd like to build an extractor that can generally do the following:
 ## Objectives
 
 We're interested in building the extractor and setting up a way to automatically run it on a regular basis and store all the files and lists of file URLs.
+
+## Resources
+
+List of IATI information fields and XPaths: https://github.com/Humanitarian-AI/IATI-HXL/blob/master/IATI-HXL-Correlation.csv
