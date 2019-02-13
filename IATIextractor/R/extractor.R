@@ -62,6 +62,17 @@ tableXMLs<-function(filepath = NULL){
 
 
 
+xml_data<-lapply(iati_xmls$xml_url,FUN = function(f){
+  
+  tryCatch(expr = {
+    httr::GET(f)
+  },error = function(e){
+    NA
+  })
+  
+})
+
+
 
 
 
