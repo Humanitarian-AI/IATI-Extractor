@@ -16,6 +16,8 @@ The extractors will serve different purposes and give Humanitarian AI members th
 
 ## Dropbox Data Extractor
 
+![IATI Folders and Files](https://github.com/Humanitarian-AI/IATI-Extractor/blob/master/Media/IATI_Folders_Files.png)
+
 IATI stores a daily snapshot of all IATI data on Dropbox and updates the corpus every 24 hours. The data is stored in hundreds of individuals folders organized by publishing organizations. Information on accessing the data is located [here](https://github.com/codeforIATI/iati-data-dump).
 
 The **Dropbox Extractor** will systematically extract XML data stored in organization folders and export the data to a Google Cloud Firestore database which Humanitarian AI members are testing via a connected group micro-project: [IATI-Firestore](https://github.com/Humanitarian-AI/IATI-Firestore).
