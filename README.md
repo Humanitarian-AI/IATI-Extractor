@@ -8,7 +8,7 @@ Organizations report aid activities in compliance with IATI by converting activi
 
 **Humanitarian AI** community members are building **three** different IATI data extractors:
 
-* **Dropbox Extractor** will collect IATI data stored on Dropbox which is updated very 24 hours,
+* **Dropbox Extractor** will collect IATI data stored via Dropbox which is updated very 24 hours,
 * **Datastore Extractor** will collect data accessible from IATI's new Datastore,
 * **URL Data Extractor** will collect data stored in XML files published on organizations' web servers.
 
@@ -18,10 +18,9 @@ The extractors will serve different purposes and give Humanitarian AI members th
 
 ![IATI Folders and Files](https://github.com/Humanitarian-AI/IATI-Extractor/blob/master/Media/IATI_Folders_Files.png)
 
-IATI stores a daily snapshot of all IATI data on Dropbox and updates the corpus every 24 hours. The data is stored in hundreds of individuals folders organized by publishing organizations. Information on accessing the data is located [here](https://github.com/codeforIATI/iati-data-dump).
+IATI stores a daily snapshot of all IATI data on Dropbox. The data is stored in hundreds of individuals folders organized by publishing organization. More information about the data dump is located [here](https://github.com/codeforIATI/iati-data-dump).
 
-The **Dropbox Extractor** will systematically extract XML data stored in organization folders and export the data to a Google Cloud Firestore database which Humanitarian AI members are testing via a connected group micro-project: [IATI-Firestore](https://github.com/Humanitarian-AI/IATI-Firestore).
-
+The **Dropbox Extractor** will systematically extract XML data stored in organization folders and then prepare and store the data in one or more databases setup for testing. Currently Humanitarian AI community members are working on setting up three databases test: A Google Cloud [Firestore](https://github.com/Humanitarian-AI/IATI-Firestore), a [Cosmos DB](https://github.com/Humanitarian-AI/CosmosDB) and a Neo4j [Graph Database](https://github.com/Humanitarian-AI/IATI-Graph).
 
 
 ## Datastore Data Extractor
